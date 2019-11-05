@@ -1,5 +1,6 @@
 package com.company;
 
+import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
@@ -9,6 +10,10 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 public class Codigo_clave {
+
+    /*
+    *@Autor :- Pratik Kumar
+    */
 
 
 //    public static SecretKey keygenKeyGeneration(int keySize) {
@@ -54,7 +59,7 @@ public class Codigo_clave {
         return encryptedData;
     }
 
-    public static byte[] decryptData(SecretKey sKey, byte[] data) {
+    public static byte[] decryptData(SecretKey sKey, byte[] data) throws BadPaddingException {
         byte[] decryptedData = null;
         try {
             Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
