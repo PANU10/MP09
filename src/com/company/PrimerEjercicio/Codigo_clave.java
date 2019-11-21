@@ -1,4 +1,4 @@
-package com.company;
+package com.company.PrimerEjercicio;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;

@@ -1,16 +1,10 @@
-package com.company;
-
-import jdk.nashorn.api.tree.WhileLoopTree;
+package com.company.PrimerEjercicio;
 
 import javax.crypto.BadPaddingException;
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.NoSuchPaddingException;
 import javax.crypto.SecretKey;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
 
 public class Main {
 
