@@ -1,5 +1,4 @@
-package com.company.Segundo_Ejercicio;
-
+package com.company.UF1.Segundo_Ejercicio;
 import javax.crypto.SecretKey;
 import java.io.FileOutputStream;
 import java.security.KeyPair;

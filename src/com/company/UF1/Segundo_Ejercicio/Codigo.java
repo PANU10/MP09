@@ -1,4 +1,4 @@
-package com.company.Segundo_Ejercicio;
+package com.company.UF1.Segundo_Ejercicio;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;

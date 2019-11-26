@@ -1,4 +1,4 @@
-package com.company.PrimerEjercicio;
+package com.company.UF1.PrimerEjercicio;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.SecretKey;
