@@ -10,6 +10,7 @@ public class PruebaRunnable {
 
             ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(3);
             List llistaTasques= new ArrayList<>();
+
             for (int i = 0; i < 10; i++) {
                 Run run = new Run((int)(Math.random()*10));
                 llistaTasques.add(run);
@@ -25,6 +26,7 @@ class Run implements Runnable{
         private int nota;
 
     public int getNota() {
+        nota = (int)(Math.random()*10);
         return nota;
     }
     public Run (int nota) {
@@ -33,7 +35,6 @@ class Run implements Runnable{
 
     @Override
     public void run() {
-        nota = (int)(Math.random()*10);
         return;
     }
 }
